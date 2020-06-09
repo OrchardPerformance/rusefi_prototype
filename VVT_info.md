@@ -26,7 +26,21 @@ ECU info from M54
 Maybe ECU info from N52
 
 Full throttle results from M20:
-1000 = -10 deg inlet 
+1000 = +10 deg inlet @108
+1500 = +10 @108
+2000 = between +10 @108 and +5 @103
+2500 = +5 @103 (but tiny loss for +10 @108)
+3000 = 0 @103 
+3500 = -5 @103
+4000 = -10 @103 and -5 @103
+4500 = between -15 @103 and -10 @103
+5000 = Same ve for -15 @108, -10 @108, -5 @113
+5500 = between -10 @113 and -5 @113 
+6000 = -5 @118
+6500 = -5 @118
+7000 = -10 @113 (0.2% loss for -5 @118)
+7500 = 
+
 
 
 M20 simulated cam angles: Due to the way centre line affects both cams the advance value is not IVO position. Fixed IVO position as below. Method would set intake angle and then overlap.
