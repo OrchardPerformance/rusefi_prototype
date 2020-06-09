@@ -39,7 +39,12 @@ Full throttle results from M20:
 6000 = -5 @118  
 6500 = -5 @118  
 7000 = -10 @113 (0.2% loss for -5 @118)  
-7500 =   
+7500 = -10 @ 113 
+
+Suggestion from this is that the overlap/centre line needs to open up heading towards peak power and maximum inlet retard around peak torque. 
+Idle wants mid range inlet advance with reduced overlap. 
+This would fit with the idea that more overlap is needed for larger airflows and more power. 
+Inlet retard coincides with largest inlet manifold velocity vs engine RPM. 
 
 
 
