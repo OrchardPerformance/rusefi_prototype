@@ -25,7 +25,7 @@ ECU info from M50
 ECU info from M54 
 Maybe ECU info from N52
 
-Full throttle results from M20:  
+Full throttle results from M20, positions for max VE:   
 1000 = +10 deg inlet @108  
 1500 = +10 @108  
 2000 = between +10 @108 and +5 @103  
@@ -46,6 +46,21 @@ Idle wants mid range inlet advance with reduced overlap.
 This would fit with the idea that more overlap is needed for larger airflows and more power. 
 Inlet retard coincides with largest inlet manifold velocity vs engine RPM. 
 
+Full throttle results from M20, possible losses for 1 degree of freedom:   
+1000 = +10 can loose 6.4%, 108 can loose 6.2%ve (max 10.7% loss)  
+1500 = +10 = 5.9%  @108 = 5.7% 
+2000 = between +10 @108 and +5 @103  
+2500 = +5 @103 (but tiny loss for +10 @108)  
+3000 = 0 @103   
+3500 = -5 @103  
+4000 = -10 @103 and -5 @103  
+4500 = between -15 @103 and -10 @103  
+5000 = Same ve for -15 @108, -10 @108, -5 @113  
+5500 = between -10 @113 and -5 @113   
+6000 = -5 @118  
+6500 = -5 @118  
+7000 = -10 @113 (0.2% loss for -5 @118)  
+7500 = -10 @ 113 
 
 
 M20 simulated cam angles: Due to the way centre line affects both cams the advance value is not IVO position. Fixed IVO position as below. Method would set intake angle and then overlap.  
