@@ -7,3 +7,5 @@ Pins are a mix of Junior power timer and microtimer 1
 
 https://www.dalroad.com/wp-content/uploads/2015/05/88way-plug-in-connection.pdf
 
+https://www.automotiveconnectors.com/88-way-boch-ecu-connector-kit-inc-terminals.html
+
