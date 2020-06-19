@@ -18,3 +18,8 @@ https://www.race-clutch.com/2293/6410/lightweight-flywheels-crmo-steel/flywheel-
 
 
 Thermostat is electronic, Believe it is just heated? maybe this could be dealt with via relay? 
+
+E30 swap info: 
+https://www.r3vlimited.com/board/forum/e30-technical-forums/24v-engine-swaps/m54-s54/375418-n52-swap/page7?t=418889
+https://www.e90post.com/forums/showthread.php?t=1213551&page=7
+
