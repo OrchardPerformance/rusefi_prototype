@@ -5,6 +5,7 @@ Water pump is a pierburg pump, can be made to work with a simple PWM.
 https://www.miataturbo.net/engine-performance-56/bmw-pierburg-electric-waterpump-controller-69420/
 https://www.tecomotive.com/download/manual_tinyCWA.pdf
 https://www.clubgti.com/forums/index.php?threads/electric-water-pumps.267062/
+https://z4-forum.com/forum/viewtopic.php?t=99913
 
 Valeo single mass flywheel. Seems to use M5x clutch? 
 https://www.ecstuning.com/b-valeo-parts/single-mass-flywheel-conversion-kit/835115~val/?gclid=Cj0KEQiA4o3DBRCJsZqh8vWqt_8BEiQA2Fw0efVQ9Cw0xBwIc70MfCN-JrcbS0F3LiZTl5Ad85oOpY4aAjwD8P8HAQ
@@ -16,3 +17,4 @@ Cheap single mass lightweight
 https://www.race-clutch.com/2293/6410/lightweight-flywheels-crmo-steel/flywheel-lightweight-bmw-125i-130i-n52-n53-e81-e82-e87-e88-323i-325i-330i-xi-xdrive-e90-e91-e92-e93-525i-530i-e60-e61-f10-f11-630i-e63-e64-x1-e84-n52-crmo-steel-8-3kg-detail
 
 
+Thermostat is electronic, Believe it is just heated? maybe this could be dealt with via relay? 
