@@ -64,6 +64,66 @@ resistor. The signal was then sent to the DSP system
 
 ![](Images/980140-5.png)
 
+![](Images/980140-6.png)
+
+Based on an ionization signal, once the maximum
+acceleration and the maximum heat release point locations are determined, both a and m in the Wiebe function
+are decided. Since the end of combustion (defined
+through the ionization signal) does not necessarily mean
+MFB being 1, changing the end of combustion location
+does not affect the shape, the values, and parameter m
+of ion MFB curve, but changes the values of parameter a.
+In other words, changing a will not change the shape and
+values of the MFB curve but will extend the end of combustion to a different location if the maximum acceleration and maximum heat release locations are the same.
+As the spark timing changes from 20° to 25° and to 30°,
+parameter m increases from 2.13 to 2.51 and to 2.85.
+Parameter a also increases as spark timing becomes
+more advanced. Both of the maximum acceleration
+points and the maximum heat release points are delayed
+at more advanced spark timing conditions due to the
+lower initial pressure and temperature at ignition. Earlier
+spark timing allows the mixture more time for combustion
+to complete before the exhaust valve opens, which
+results in the efficiency parameter a becoming larger.
+
+![](Images/980140-7.png)
+
+![](Images/980140-8.png)
+
+For 10% and 50%, the correlation factors are rather high. For 90% mass fraction
+burned, due to the influence of the deceleration point and
+heat loss, the correlation factor is lower than the other
+two. However, generally speaking, using ionization signal
+to interpret the mass faction burned gives us fairy decent
+results and offers an easier alternative to obtain mass
+fraction burned.
+
+![](Images/980140-9.png)
+
+Figure 12 shows the mass fraction burned at different
+equivalence ratios obtained through the ionization signals
+when the engine was operating at 2200 rpm, 4.5 bar
+BMEP, and spark timing was 30° before TDC. As the
+combustion mixture became richer, the combustion process took less crank angle to complete until the equivalence ratio is approximately 1.1 (A/F=13). Further
+enrichment actually slowed down the combustion process. This is consistent with the combustion characteristic of the fuel. Around equivalence ratio 1.1, the laminar
+flame speed of air/fuel mixture usually reaches its maximum, which shortens the combustion duration and
+enhances the combustion efficiency. As the equivalence
+ratio became larger or the fuel became richer, form factor
+m became smaller. However, the efficiency parameter a
+reached its highest values when the equivalence ratio
+was around 1.1 (Figure 13)
+
+![](Images/980140-10.png)
+
+Obviously, the larger or
+the colder the electrodes is, the easier for the electrode to
+capture the free ions, and the ion intensity measured by
+this kind of spark plug will be stronger.
+
+![](Images/980140-11.png)
+
+
+
 980166 - In-Cylinder Air/Fuel Ratio Approximation Using
 Spark Gap Ionization Sensing
 
