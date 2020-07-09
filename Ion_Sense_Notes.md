@@ -357,8 +357,11 @@ small in comparison with the structure borne noise
 method.
 
 ![](Images/1999-01-0204-4.PNG)
+
 ![](Images/1999-01-0204-5.PNG)
+
 ![](Images/1999-01-0204-6.PNG)
+
 ![](Images/1999-01-0204-7.PNG)
 
 The modified ignition system requires only few changes
@@ -420,13 +423,20 @@ Using Ion-Current Sensing Techniques
 and Comparison to Cylinder Pressure for SI Engines
 
 ![](Images/2008-01-0981-1.PNG)
+
 ![](Images/2008-01-0981-2.PNG)
+
 ![](Images/2008-01-0981-3.PNG)
+
 
 ---
 
 2010-01-0567 - Characteristics of Ion Current Signals in
 Compression Ignition and Spark Ignition Engines
+
+![](Images/2010-01-0567-1.PNG)
+
+![](Images/2010-01-0567-2.PNG)
 
 ---
 
