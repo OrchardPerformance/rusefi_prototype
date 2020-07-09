@@ -331,9 +331,58 @@ above statement is, that knock detection should not rely
 on a single resonance mode but extend the evaluation to
 other resonances in order to increase detection probability
 
+COMPARSION OF RESULTS WITH STRUCTURE
+BORNE NOISE METHOD – Figures 17, 18, and 19 show
+the comparison of ion current and structure borne noise
+based knock control at 1500/3000/5000 rpm, full load.
+The structure borne noise knock control represents a
+mass production application, in this case calibrated with
+a strong priority on engine protection.
+The knock control based on structure borne noise carefully avoids any knock, but allows considerable false
+detections, especially at low engine speed.
+At all engine speeds, the ion current knock feature shows
+proportional behaviour with the knock reference. In figure
+18, the ion current system did not detect knock in two
+cycles of 5000. Nevertheless, the overall result is, that
+good knock detection quality can be achieved with the
+applied ion current feature. We expect, that the variation
+of detection quality between different cylinders will be
+small in comparison with the structure borne noise
+method.
 
+![](Images/1999-01-0204-4.png)
+![](Images/1999-01-0204-5.png)
+![](Images/1999-01-0204-6.png)
+![](Images/1999-01-0204-7.png)
 
-
+The modified ignition system requires only few changes
+of the widespread inductive ignition system. The advantages, like low spark-plug erosion, are kept. The spark
+duration limitation improves the bandwidth of conventional ignition coils, so that they can be used for ion current knock detection. Good results are obtained with a
+measurement power supply, which delivers a voltage of
+approximately 150 V to the electrodes of the spark plug.
+Basic investigations show, that for misfire detection the
+signal-to-noise ratio is small at operation points with zero
+load. This especially applies to idling. The variance of the
+signal pattern and the features of consecutive cycles is
+impressive. But under all investigated conditions at two
+individual engines a full range misfire detection is possible.
+Fuel additives improve ionisation at speeds greater than
+3000 rpm.This must be taken into account for functions
+based on ion current amplitude. Influences like EGR,
+ignition retard and spark plug geometry were investigated.
+The homogeneous and stratified combustion of a series
+production direct injection gasoline engine (GDI) leads to
+an earlier start of the flame front phase and a short ion
+current duration. But ion current sensing seems to be
+feasible also on this GDI engine. It is important, that the
+engine can be operated with the modified inductive ignition system and a spark duration of 800µs in the stratified
+charge operation.
+For knock detection the problems of sensor position and
+random distribution of knock energy in the frequency
+domain were investigated. With decentral spark plug
+position better detection results are expected. The random distribution of knock energy requires a wideband
+signal processing.
+For the preselection of filter frequencies a two dimensional representation of an evaluation criterion was introduced.
 
 ---
 
