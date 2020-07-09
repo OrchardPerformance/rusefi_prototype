@@ -25,9 +25,9 @@ and gas temperature sensing around the spark gap
 (Satizkoff, 1997). After the third peak, the ion signal follows the pressure signal but declines more rapidly to a
 lower value. 
 
-![](980140-1.png)
+![](/Images/980140-1.png)
 
-![](980140-2.png)
+![](/Images/980140-2.png)
 
 Therefore, the change in the ion signal
 reflects the temperature change in the vicinity of the
@@ -41,7 +41,7 @@ function should be zero and the third derivative of Wiebe
 function should be zero at the maximum acceleration
 point. Therefore:
 
-![](980140-3.png)
+![](/Images/980140-3.png)
 
 Combining both conditions, we are able to obtain constant a and m, and further to construct a Wiebe function
 to describe the mass fraction burned versus crank angle.
@@ -52,7 +52,7 @@ point, and the end of combustion point are: 28°, 42°, and
 (2), parameter a and m are 2.24 and 2.68 respectively.
 Then the MFB for this operating condition is:
 
-![](Images/980140-4.png)
+![](/Images/980140-4.png)
 
 where q is the crank angle difference between the calculated point and the ignition point.
 
