@@ -25,7 +25,7 @@ and gas temperature sensing around the spark gap
 (Satizkoff, 1997). After the third peak, the ion signal follows the pressure signal but declines more rapidly to a
 lower value. 
 
-![](/Images/980140-1.png)
+![null](/Images/980140-1.png)
 
 ![](/Images/980140-2.png)
 
