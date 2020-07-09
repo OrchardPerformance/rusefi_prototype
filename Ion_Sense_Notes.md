@@ -30,7 +30,7 @@ lower value.
 ![null](./Images/980140-1.PNG)  
 
 
-![null](./Images/980140-2.png)  
+![null](./Images/980140-2.PNG)  
 
 
 Therefore, the change in the ion signal
@@ -45,7 +45,7 @@ function should be zero and the third derivative of Wiebe
 function should be zero at the maximum acceleration
 point. Therefore:
 
-![](Images/980140-3.png)
+![](Images/980140-3.PNG)
 
 Combining both conditions, we are able to obtain constant a and m, and further to construct a Wiebe function
 to describe the mass fraction burned versus crank angle.
@@ -56,7 +56,7 @@ point, and the end of combustion point are: 28°, 42°, and
 (2), parameter a and m are 2.24 and 2.68 respectively.
 Then the MFB for this operating condition is:
 
-![](Images/980140-4.png)
+![](Images/980140-4.PNG)
 
 where q is the crank angle difference between the calculated point and the ignition point.
 
@@ -66,9 +66,9 @@ the spark plug gap. When there is conduction between
 the gap, the current can be captured through the 100 KW
 resistor. The signal was then sent to the DSP system
 
-![](Images/980140-5.png)
+![](Images/980140-5.PNG)
 
-![](Images/980140-6.png)
+![](Images/980140-6.PNG)
 
 Based on an ionization signal, once the maximum
 acceleration and the maximum heat release point locations are determined, both a and m in the Wiebe function
@@ -90,9 +90,9 @@ spark timing allows the mixture more time for combustion
 to complete before the exhaust valve opens, which
 results in the efficiency parameter a becoming larger.
 
-![](Images/980140-7.png)
+![](Images/980140-7.PNG)
 
-![](Images/980140-8.png)
+![](Images/980140-8.PNG)
 
 For 10% and 50%, the correlation factors are rather high. For 90% mass fraction
 burned, due to the influence of the deceleration point and
@@ -102,7 +102,7 @@ to interpret the mass faction burned gives us fairy decent
 results and offers an easier alternative to obtain mass
 fraction burned.
 
-![](Images/980140-9.png)
+![](Images/980140-9.PNG)
 
 Figure 12 shows the mass fraction burned at different
 equivalence ratios obtained through the ionization signals
@@ -117,14 +117,14 @@ m became smaller. However, the efficiency parameter a
 reached its highest values when the equivalence ratio
 was around 1.1 (Figure 13)
 
-![](Images/980140-10.png)
+![](Images/980140-10.PNG)
 
 Obviously, the larger or
 the colder the electrodes is, the easier for the electrode to
 capture the free ions, and the ion intensity measured by
 this kind of spark plug will be stronger.
 
-![](Images/980140-11.png)
+![](Images/980140-11.PNG)
 
 Here, we use the
 reverse Rassweiler-Withrow method and take the heat
@@ -137,7 +137,7 @@ combustion is combined with the pressure change due to
 cylinder volume change. The pressure signal during the
 combustion is calculated through the following equation:
 
-![](Images/980140-12.png)
+![](Images/980140-12.PNG)
 
 Where P(i) and P(i+1) are the pressure at the earlier and
 latter iteration. V(i) and V(i+1) are the volumes. dXb(i)/
@@ -182,7 +182,7 @@ energy is dissipated by the primary circuit resistances.
 After a short time delay the ion current measurement can
 be started.
 
-![](Images/1999-01-0204-1.png)
+![](Images/1999-01-0204-1.PNG)
 
 The SDL serves 3 main purposes:
 1. It limits the spark to a map-dependent, calibrated
@@ -201,7 +201,7 @@ knock detection.
 3. The short circuit of the primary coil during the measurement windows prevents the transfer of interferences from the vehicles electromagnetic
 environment.
 
-![](Images/1999-01-0204-2.png)
+![](Images/1999-01-0204-2.PNG)
 
 MEASUREMENT SYSTEM – Like the ignition system the
 measurement system is a reasonable trade-off between
@@ -277,7 +277,7 @@ The spark plug gap has also a slight effect on the ion current measurement. Star
 ion current signal enlarges with increasing the gap. However by reaching a plug gap of 1.1mm there is almost no
 further amplification of the ion current by increasing the gap.
 
-![](Images/1999-01-0204-3.png)
+![](Images/1999-01-0204-3.PNG)
 
 In an ion current system, the spark plug – used as a sensor - is located close to the source of the knock, for each
 individual cylinder. During the post flame phase, the ion
@@ -354,10 +354,10 @@ of detection quality between different cylinders will be
 small in comparison with the structure borne noise
 method.
 
-![](Images/1999-01-0204-4.png)
-![](Images/1999-01-0204-5.png)
-![](Images/1999-01-0204-6.png)
-![](Images/1999-01-0204-7.png)
+![](Images/1999-01-0204-4.PNG)
+![](Images/1999-01-0204-5.PNG)
+![](Images/1999-01-0204-6.PNG)
+![](Images/1999-01-0204-7.PNG)
 
 The modified ignition system requires only few changes
 of the widespread inductive ignition system. The advantages, like low spark-plug erosion, are kept. The spark
