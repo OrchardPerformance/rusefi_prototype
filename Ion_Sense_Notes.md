@@ -2,6 +2,27 @@
 Obtained from the Cylinder Pressure Signal and
 Spark Plug Ion Signal - Very useful 
 
+For many years at Champion, spark plug ion sensing has
+been used to detect engine pre-ignition in order to select
+the proper heat range spark plug for an engine. In recent
+years, ion sensing again became a topic of interest due
+to its increasing applications in engine diagnostic and
+engine control, such as misfire and knock detection;
+spark timing control; A/F ratio detection and even pressure estimation (Eriksson, et al. 1996, 1997; Satizkoff, et
+al. 1996, 1997). 
+
+ Figure 1 shows a typical ionization signal obtained through a spark plug. As has been
+discussed in much of the literature, the first peak of this
+signal is the result of ignition pulse. The second peak is
+the flame front passing through the gap. The third peak,
+which has been called postflame by many researchers,
+usually correlates well with the pressure signal and can
+be used to interpret the peak pressure location for spark
+timing control (Eriksson, Nielsen, and Glavenius, 1997)
+and gas temperature sensing around the spark gap
+(Satizkoff, 1997). After the third peak, the ion signal follows the pressure signal but declines more rapidly to a
+lower value. 
+
 980166 - In-Cylinder Air/Fuel Ratio Approximation Using
 Spark Gap Ionization Sensing
 
