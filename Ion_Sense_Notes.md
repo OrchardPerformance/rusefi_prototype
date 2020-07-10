@@ -1,3 +1,8 @@
+https://www.searchautoparts.com/motorage/maintenance-repair-service-repair/making-sense-ion-sense-technology
+
+
+
+
 980140 - The Comparison of Mass Fraction Burned
 Obtained from the Cylinder Pressure Signal and
 Spark Plug Ion Signal - Very useful   
@@ -432,9 +437,11 @@ and Comparison to Cylinder Pressure for SI Engines
 ---
 
 2010-01-0567 - Characteristics of Ion Current Signals in
-Compression Ignition and Spark Ignition Engines
+Compression Ignition and Spark Ignition Engines - Mostly focused on HCCI/Diesel
 
 ![](Images/2010-01-0567-1.PNG)
+
+![](Images/2010-01-0567-2.PNG)
 
 ![](Images/2010-01-0567-2.PNG)
 
@@ -446,7 +453,20 @@ Current Measurement
 ---
 
 2013-01-0354 - Ion-Sense-Based Real-Time Combustion Sensing for Closed
-Loop Engine Control
+Loop Engine Control - Gen 2 Delphi paper, bit of a sales pitch lacks detail. 
+
+One of the difficulties in interfacing the
+ionization current signal with a separate controller is ground
+shift and ground noise. The intention of the design was to
+minimize those effects. This is achieved by an electronic
+architecture which delivers a current source type output,
+thereby minimizing grounding effects. Consequently, a load
+resistor is required in the receiving controller (ISDC) to
+convert the current signal to a voltage for subsequent
+processing by the fast analog-to-digital (A/D) converters. If a
+variable (or selectable) load resistor is used in the receiving
+controller, a real time automatic gain control function can
+easily be implemented.
 
 ---
 
@@ -459,3 +479,10 @@ Diagnostic Solutions Based on Ion Current Signals
 Knock and Engine Control
 
 ---
+
+http://www.dragonfly75.com/motorbike/plugpolarity.html
+
+So, on a well used spark plug, it can  usually be seen that one
+electrode is worn more than the other. If the voltage polarity at the plug is negative, then wear will
+occur on the centre electrode.
+
