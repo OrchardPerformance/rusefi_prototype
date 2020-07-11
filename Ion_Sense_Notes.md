@@ -169,6 +169,8 @@ Spark Gap Ionization Sensing
 Jürgen Förster, Achim Günther, Markus Ketterer and Klaus-Jürgen Wald
 Robert Bosch GmbH
 
+https://sci-hub.tw/10.4271/1999-01-0204
+
 Unlike the structure borne noise, both cylinder pressure
 and ion current signals contain only local information on
 the combustion. That means different results depending
@@ -478,6 +480,10 @@ Diagnostic Solutions Based on Ion Current Signals
 950004 - Ion-Gap Sense in Misfire Detection,
 Knock and Engine Control
 
+https://sci-hub.tw/10.4271/950004
+
+
+
 ---
 
 http://www.dragonfly75.com/motorbike/plugpolarity.html
@@ -486,3 +492,35 @@ So, on a well used spark plug, it can  usually be seen that one
 electrode is worn more than the other. If the voltage polarity at the plug is negative, then wear will
 occur on the centre electrode.
 
+---
+
+Image below shows model MK tested 
+
+![](Images/Matt_LTspice_model.png)
+
+---
+
+![](Images/BMW_Ion_Module.png)
+
+---
+
+![](Images/ION_Module_Saab_Workshop_manual.png)
+
+---
+
+Miata 2019 coil - H6T61272 - Made by mitsubishi, SAAB coil is H6T60271
+
+https://books.google.co.uk/books?id=6oNuwqxjNg4C&pg=PA2993&lpg=PA2993&dq=mitsubishi+ion+sense&source=bl&ots=ey1Iu_-AWd&sig=ACfU3U2d_cdQRzJcDGjx3CawR2nBc2gUWg&hl=en&sa=X&redir_esc=y#v=onepage&q=mitsubishi ion sense&f=false
+
+---
+
+Patents 
+
+https://patents.google.com/patent/US20110210745  
+A self power circuit for ion sense circuitry is provided. The self power circuit is configured to supply the voltages required to generate and measure an ion current flow in a combustion chamber of an engine. The power circuit stores power from the current flow in the ignition coil secondary circuit during at least a portion of a sparking period for use during the ion current measurement period between sparking events. Ion current generation voltage as well as positive and negative sensor circuit power supply voltages are generated in one embodiment.
+
+https://patents.google.com/patent/US6498490  
+Disclosed is a bias and measuring circuit that improves the ion sense measurement and ignition performance of an Ion Sense Ignition system where the ion current signal processing is implemented remote from the ignition coil. Specifically, the bias and measuring circuit of the invention reduces the effects of secondary harness capacitance on the ion current signal, minimizes the effects of harness electrical leakage and reduces the chances for “spark-on-make” (an ignition firing when the ignition coil primary is initially energized).
+
+https://patents.google.com/patent/US4648367A/en  
+Origional SAAB pattent - Expired 
