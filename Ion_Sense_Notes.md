@@ -523,4 +523,30 @@ https://patents.google.com/patent/US6498490
 Disclosed is a bias and measuring circuit that improves the ion sense measurement and ignition performance of an Ion Sense Ignition system where the ion current signal processing is implemented remote from the ignition coil. Specifically, the bias and measuring circuit of the invention reduces the effects of secondary harness capacitance on the ion current signal, minimizes the effects of harness electrical leakage and reduces the chances for “spark-on-make” (an ignition firing when the ignition coil primary is initially energized).
 
 https://patents.google.com/patent/US4648367A/en  
-Origional SAAB pattent - Expired 
+Original SAAB patent - Expired 
+
+---
+
+Ford patent 6089077  
+https://patents.google.com/patent/US6089077A/en
+
+Cv is the specific heat at constant volume, Tf is the temperature at the ignition point, DeltaHcomb is the heat of combustion 
+
+---
+
+1. FFT the ion sense and look for knock, if knock exit the process here, trigger knock intervention logic, output 99 for all the following values and restart process.  
+2. If no knock determine the angle of the second peak of the ion signal and store it as MFB50 (this may be enough for tuning)  
+3. Differentiate the Ion signal and find the angle of the 3rd peak, store this as end of combustion EOC  
+4. Store the MAP pressure at IVC or BDC if no IVC value set. (VVT will need to modify the IVC value)  
+5. Pre-process the Cylinder volume and store it in ram  
+6. Use the pre-processed volume and MAP value to get adiabatic pressure and temperature via PVnRT  
+7. Use the MFB50 and the ECO values to back calculate the Wiebe function (not 100% on the exact way to do this yet but think it will just be a reverse wiebe calculation using spark angle, MFB50 and EOC)  
+8. Use a calorific value for the fuel to calculate the energy input and due to fuel burned and thus temp rise per degree  
+9. Use this temp rise and the previously calculated pressure,temp and volume to do another pass, adding the temperature and calculating the pressure  
+10. spit out the angle and magnitude of the pressure peak.  
+
+---
+CORRECT SPARK PLUG POLARITY 
+
+http://www.dragonfly75.com/motorbike/plugpolarity.html
+
