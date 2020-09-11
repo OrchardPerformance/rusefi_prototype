@@ -23,3 +23,8 @@ E30 swap info:
 https://www.r3vlimited.com/board/forum/e30-technical-forums/24v-engine-swaps/m54-s54/375418-n52-swap/page7?t=418889
 https://www.e90post.com/forums/showthread.php?t=1213551&page=7
 
+To use a n54 turbo clutch on a m20; you need:
+330i e46 zhp 2005-6 standard flywheel (could be an aftermarket fly) and matching new one time use bolts.
+Also a 240mm friction disc matching your transmission input spline standard (there are a few different ones to choose from)
+And the 135/335/535 pressure plate.
+Which means an M54 clutch should fit an N54 flywheel and likely some other older clutches.
