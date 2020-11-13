@@ -550,3 +550,31 @@ CORRECT SPARK PLUG POLARITY
 
 http://www.dragonfly75.com/motorbike/plugpolarity.html
 
+---
+
+Looks like this N series Peugeot coil has a spark booster gap too
+Going to cut into it a bit to see if that can be eliminated to make a viable test coil
+Thinking if they can be modified to eliminate the gap like the S85 coils must have then we can at least consider them an option for short term testing.
+Potentially as a drop in coil for the N series engines when tuning and drop a normal one back in for day to day use.
+
+Andrey  5:15 PM
+that's a cheaper alternative to S85?
+
+Simon - Orchardperformance  5:15 PM
+Maybe
+This one cost £17 delivered
+Would make any used N series coil a viable option
+They have 3 pins, one on the secondary coil like we need but no direct connection to the spark plug
+Sometimes things have a second gap built into the system to prevent the coil discharging and not sparking at all when there is fuel or other liquid on the plug
+By having a second gap before the plug the coil can fully charge and still sort of spark even if the electrodes of the plug are partly shorted.
+But that totally F's up the Ion sense
+
+Andrey  5:20 PM
+interesting stuff!!! TIL
+
+Simon - Orchardperformance  5:21 PM
+Its why if you measure the secondary resistance on your V12 coils it will be infinite
+Even though the 3 pin plug has one pin connected to the secondary
+There is actually a sneaky second small gap where the red line is
+
+![](Images/SparkBoosterGap.PNG)
