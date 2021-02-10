@@ -30,8 +30,8 @@ lowion= 0
 -------------------------------------------------  
 ## Load structure  
 
-ION1=double(data.(filesname{i}(1:end-4)).ION1.data);  ***% loads the ion data from the matlab structure***
-CrankAngle=double(data.(filesname{i}(1:end-4)).PCYL2.axis);  ***% loads the crank angle data from the matlab structure***
+ION1=double(data.(filesname{i}(1:end-4)).ION1.data);  ***% loads the ion data from the matlab structure***    
+CrankAngle=double(data.(filesname{i}(1:end-4)).PCYL2.axis);  ***% loads the crank angle data from the matlab structure***  
 
 ----------------------------------------------------------------------
 ## auto detect spark angle from ion trace  
