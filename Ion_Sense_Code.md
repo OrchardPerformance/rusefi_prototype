@@ -12,14 +12,14 @@
 - Compare the Angle and magnitude to 5 combustion cycle rolling averages of the angle and magnitude  
 - Discard the current cycle if: The peak is > 2x the magnitude of the previous peaks and is earlier than 5 degrees into the window (this catches the ringing for the most part)     
 - Discard the current cycle if: The peak angle is more than +-5 degrees from the previous rolling average values (this catches misfires, early detection, failed detection and noise)  
-- Add the current cycle to the rolling average and output the rolling average as the measued pressure peak angle for that cycle/log  
+- Add the current cycle to the rolling average and output the rolling average as the measured pressure peak angle for that cycle/log  
   
 
 
 - one problem we may have is the detection of the low ion signal condition, this is generally when the magnitude of the pressure peak is below -2v, however its really hard to detect that before you know where the pressure peak is. Best solution I can think of is to set a TPS and RPM limit for the use of low signal mode. It seems to only be RPMs below ~2500 and BMEPs below 6 bar that suffer this.  
-Other engines may be different so our milage may truely vary.  
+Other engines may be different so our milage may truly vary.  
   
-- I think it would be good if we can keep a track of the number of discarded traces as a rolling number so we can look in logs to see if there are failures in the detection method. It would be good to also log the earliest and latest angle in the last X number of logs as a way to see if there is a lot of jitter in the detection, maybe this will give us an idea of the uncertanty of the logs? 
+- I think it would be good if we can keep a track of the number of discarded traces as a rolling number so we can look in logs to see if there are failures in the detection method. It would be good to also log the earliest and latest angle in the last X number of logs as a way to see if there is a lot of jitter in the detection, maybe this will give us an idea of the uncertainty of the logs? 
 
 ----------------------------------------------
 
@@ -35,7 +35,7 @@ CrankAngle=double(data.(filesname{i}(1:end-4)).PCYL2.axis);  ***% loads the cran
 
 ----------------------------------------------------------------------
 ## auto detect spark angle from ion trace  
-***Use the rise of >0.3v to detec the initiation of the spark, the actual initiation of the spark can be a little of to the comanded spark angle and there is some shift with load and rpm.***   
+***Use the rise of >0.3v to detect the initiation of the spark, the actual initiation of the spark can be a little of to the commanded spark angle and there is some shift with load and rpm.***   
 ***% create array and record the index that ion trace exceeds -1 volt***  
 
 isSpark = ION1 > 0.3;                        ***% check to see if ion trace goes over +0.3 volts, creates logical array***  
@@ -119,7 +119,7 @@ end
 windowoffset=Combustionduration(:,cycle);    ***%offset from start of flame to begin pressure peak detection***  
 windowstart=ignitionpoint+ionindex+(windowoffset*10);  
 windowend=windowstart+250;  
-PCYLpeakarray = PCYL2array(3500:4000,1:columns);    ***%clips cylinder presure array to required range for peak analysis***  
+PCYLpeakarray = PCYL2array(3500:4000,1:columns);    ***%clips cylinder pressure array to required range for peak analysis***  
 
 IONpeakarray = zeros(251,300);  ***% create zero array for ION peak array***  
 for IDX = 1:columns;     ***% for loop to select portion of the ion trace that matches the windowing for each cycle***  
@@ -129,8 +129,8 @@ IONpeakarray (:,IDX) = ION1(IDXstart:IDXend,IDX);
 end  
 IONpeakMA = movmean(IONpeakarray,50);  
 
-[PM,PI] = max(PCYLpeakarray);   ***%Find the max values and indicies for the pressure and ion trace***  
-[IM,II] = min(IONpeakMA);    ***%be sure to use min as ion is negqative***  
+[PM,PI] = max(PCYLpeakarray);   ***%Find the max values and indices for the pressure and ion trace***  
+[IM,II] = min(IONpeakMA);    ***%be sure to use min as ion is negative***  
 PC = ((PI+3500)/10)-360;  
 IC = zeros(1,columns);  ***% for loop to calculate the correct Ion peak crank angle based on the windowing offsets***  
 for INDX = 1:columns;  
@@ -147,7 +147,7 @@ end
 TraceAVG = movmean(IM,5);  ***% Moving average Ion Max value to 5 samples***    
 TraceTwoX = TraceAVG*2;  ***% Double moving average***   
 IIAVG = movmean(II,5)  ***% Moving average of Ion Max Index for 5 samples***  
-***% for loop to check if traces violate the folowing conditions***  
+***% for loop to check if traces violate the following conditions***  
 for IDX = 1:columns,  
 if (IM(:,IDX) < TraceTwoX(:,IDX)) & II(:,IDX)<50; ***%NaN traces with peaks >2x the average AND peaking early that 5 degrees***  
     IC(:,IDX)=NaN;  
