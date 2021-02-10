@@ -81,7 +81,7 @@ end
 
 if lowion > 0  
     ***%repeat detection for last -0.3v value***  
-IONENDMA = movmean(ION1, 20);  ***% 20 sample moving average to give a smooth trace to look for end of combustion***
+IONENDMA = movmean(ION1, 20);  ***% 20 sample moving average to give a smooth trace to look for end of combustion***  
 isflameMA = IONENDMA < -0.3;  
 [rows, columns] = size(isflameMA);    ***% create array and record the index that ion trace exceeds -1 volt***  
 endpoint = zeros(1, columns);  
