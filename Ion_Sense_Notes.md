@@ -404,6 +404,7 @@ For the preselection of filter frequencies a two dimensional representation of a
 
 ---
 
+2017-01-0784
 Investigation on Pre-Ignition Combustion Events and Development of Diagnostic Solutions Based on Ion Current Signals
 Nicolo Cavina and Nahuel Rojo University of Bologna
 Luca Poggio, Lucio Calogero, and Ruggero Cevolani Ferrari Auto Spa
